@@ -1,0 +1,127 @@
+body {
+    font-family: sans-serif;
+    background-color: #181818;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 900px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: teal;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.telegram-button {
+    background-color: teal;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.scale-up {
+    width: 50px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    background-color: #333;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.scale-indicator {
+    width: 20px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    background-color: teal;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(0%);
+    cursor: pointer;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.time-frame {
+    text-align: center;
+}
+
+.percentage {
+    font-size: 2em;
+    font-weight: bold;
+    color: teal;
+}
+
+.time {
+    display: block;
+    margin-top: 5px;
+}
+
+.best-price {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 3em;
+}
+
+.tickers {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background-color: #333;
+}
